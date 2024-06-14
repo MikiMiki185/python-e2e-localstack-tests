@@ -1,0 +1,17 @@
+INFO     http.client:base_api.py:17 Making POST request to URL: None/users/signup
+INFO     http.client:base_api.py:21 Request Headers:
+{
+    "Content-Type": "application/json"
+}
+INFO     http.client:base_api.py:27 Request JSON Body:
+{
+    "username": "natalie94",
+    "password": "6__9ODghy!",
+    "email": "not-an-email",
+    "firstName": "Nicholas",
+    "lastName": "Navarro",
+    "roles": [
+        "ROLE_ADMIN",
+        "ROLE_CLIENT"
+    ]
+}

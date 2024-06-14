@@ -1,0 +1,1 @@
+INFO     http.client:base_api.py:17 Making GET request to URL: None/users

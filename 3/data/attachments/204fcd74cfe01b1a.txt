@@ -1,0 +1,5 @@
+INFO     http.client:base_api.py:17 Making GET request to URL: None/users
+INFO     http.client:base_api.py:21 Request Headers:
+{
+    "Authorization": "Bearer bad_token_value"
+}

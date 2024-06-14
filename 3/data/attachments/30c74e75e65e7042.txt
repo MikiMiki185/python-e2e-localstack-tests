@@ -1,0 +1,6 @@
+INFO     http.client:base_api.py:17 Making POST request to URL: None/users/signin
+INFO     http.client:base_api.py:27 Request JSON Body:
+{
+    "username": "wrong",
+    "password": "admin"
+}
