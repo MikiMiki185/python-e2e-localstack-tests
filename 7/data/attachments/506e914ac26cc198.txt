@@ -1,0 +1,127 @@
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver [/home/runner/.wdm/drivers/chromedriver/linux64/125.0.6422.141/chromedriver-linux64/chromedriver] found in cache
+INFO     http.client:base_api.py:17 Making POST request to URL: http://localhost:4001/users/signup
+INFO     http.client:base_api.py:21 Request Headers:
+{
+    "Content-Type": "application/json"
+}
+INFO     http.client:base_api.py:27 Request JSON Body:
+{
+    "username": "linda06",
+    "password": "TEe_58qad+",
+    "email": "kellerfelicia@example.org",
+    "firstName": "Christopher",
+    "lastName": "Jones",
+    "roles": [
+        "ROLE_ADMIN",
+        "ROLE_CLIENT"
+    ]
+}
+INFO     http.client:base_api.py:38 Response Status Code: 201
+INFO     http.client:base_api.py:41 Response Headers:
+{
+    "Vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "0",
+    "X-Frame-Options": "DENY",
+    "Content-Type": "application/json;charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Date": "Fri, 14 Jun 2024 09:30:33 GMT",
+    "Keep-Alive": "timeout=60",
+    "Connection": "keep-alive"
+}
+INFO     http.client:base_api.py:49 Response Body:
+{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJsaW5kYTA2IiwiYXV0aCI6W3siYXV0aG9yaXR5IjoiUk9MRV9BRE1JTiJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9DTElFTlQifV0sImlhdCI6MTcxODM1NzQzNCwiZXhwIjoxNzE4MzU3NzM0fQ.-g1mOkaTHv3yfXQjbE1G2lJ19BGKa5T4LL3B2fGM478"
+}
+INFO     http.client:base_api.py:17 Making POST request to URL: http://localhost:4001/users/signin
+INFO     http.client:base_api.py:27 Request JSON Body:
+{
+    "username": "linda06",
+    "password": "TEe_58qad+"
+}
+INFO     http.client:base_api.py:38 Response Status Code: 200
+INFO     http.client:base_api.py:41 Response Headers:
+{
+    "Vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "0",
+    "X-Frame-Options": "DENY",
+    "Content-Type": "application/json;charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Date": "Fri, 14 Jun 2024 09:30:34 GMT",
+    "Keep-Alive": "timeout=60",
+    "Connection": "keep-alive"
+}
+INFO     http.client:base_api.py:49 Response Body:
+{
+    "username": "linda06",
+    "roles": [
+        "ROLE_ADMIN",
+        "ROLE_CLIENT"
+    ],
+    "firstName": "Christopher",
+    "lastName": "Jones",
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJsaW5kYTA2IiwiYXV0aCI6W3siYXV0aG9yaXR5IjoiUk9MRV9BRE1JTiJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9DTElFTlQifV0sImlhdCI6MTcxODM1NzQzNCwiZXhwIjoxNzE4MzU3NzM0fQ.-g1mOkaTHv3yfXQjbE1G2lJ19BGKa5T4LL3B2fGM478",
+    "email": "kellerfelicia@example.org"
+}
+INFO     http.client:base_api.py:17 Making GET request to URL: http://localhost:4001/users/linda06
+INFO     http.client:base_api.py:21 Request Headers:
+{
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJsaW5kYTA2IiwiYXV0aCI6W3siYXV0aG9yaXR5IjoiUk9MRV9BRE1JTiJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9DTElFTlQifV0sImlhdCI6MTcxODM1NzQzNCwiZXhwIjoxNzE4MzU3NzM0fQ.-g1mOkaTHv3yfXQjbE1G2lJ19BGKa5T4LL3B2fGM478"
+}
+INFO     http.client:base_api.py:38 Response Status Code: 200
+INFO     http.client:base_api.py:41 Response Headers:
+{
+    "Vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "0",
+    "X-Frame-Options": "DENY",
+    "Content-Type": "application/json;charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Date": "Fri, 14 Jun 2024 09:30:37 GMT",
+    "Keep-Alive": "timeout=60",
+    "Connection": "keep-alive"
+}
+INFO     http.client:base_api.py:49 Response Body:
+{
+    "id": 6,
+    "username": "linda06",
+    "email": "joshuarodriguez@example.net",
+    "roles": [
+        "ROLE_ADMIN",
+        "ROLE_CLIENT"
+    ],
+    "firstName": "Rachel",
+    "lastName": "Johnson"
+}
+INFO     http.client:base_api.py:17 Making DELETE request to URL: http://localhost:4001/users/linda06
+INFO     http.client:base_api.py:21 Request Headers:
+{
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJsaW5kYTA2IiwiYXV0aCI6W3siYXV0aG9yaXR5IjoiUk9MRV9BRE1JTiJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9DTElFTlQifV0sImlhdCI6MTcxODM1NzQzNCwiZXhwIjoxNzE4MzU3NzM0fQ.-g1mOkaTHv3yfXQjbE1G2lJ19BGKa5T4LL3B2fGM478"
+}
+INFO     http.client:base_api.py:38 Response Status Code: 204
+INFO     http.client:base_api.py:41 Response Headers:
+{
+    "Vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "0",
+    "X-Frame-Options": "DENY",
+    "Date": "Fri, 14 Jun 2024 09:30:37 GMT",
+    "Keep-Alive": "timeout=60",
+    "Connection": "keep-alive"
+}
