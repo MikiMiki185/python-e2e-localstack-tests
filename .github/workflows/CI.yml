@@ -132,4 +132,10 @@ jobs:
       run: pip install -r requirements.txt
 
     - name: API tests
+      env:
+        FRONTEND_URL: "http://localhost:8081"
+        ADMIN_USERNAME: "admin"
+        ADMIN_PASSWORD: "admin"
+        BACKEND_URL: "http://localhost:4001"
+        IS_HEADLESS: "true"
       run: pytest tests/api/
